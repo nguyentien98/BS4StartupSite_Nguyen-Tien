@@ -1,0 +1,96 @@
+html, body{
+	height: 100%;
+}
+body{
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	color: #6c6f73;
+}
+h1, h2, h3, h4, h5{
+	color: #333;
+}
+h6{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.8rem;
+	letter-spacing: 0.1rem;
+}
+img{
+	max-width: 100%;
+}
+.blockquote{
+	font-size: 1.6rem;
+	color: #333;
+	border: none;
+	padding: 0;
+}
+.blockquote-footer{
+	margin: 1rem 0 0;
+}
+#stage{
+	background: url(public/images/stage.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFF;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+#stage-caption{
+	font-size: 1.4rem;
+	max-width: 60rem;
+	font-weight: 200;
+	margin: 0 auto;
+	text-align: center;
+}
+#stage-caption h1{
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.feature-content{
+	padding: 8rem 0;
+	overflow: hidden;
+}
+.feature-content img{
+	margin-bottom: -8rem;
+}
+.feature-dark{
+	background-color: #262f36;
+	color: #FFF;
+}
+.feature-dark h2{
+	color: #FFF;
+}
+
+.feature-alt{
+	background-color: #f0f0f0;
+}
+.feature-alt .feature-content{
+	padding: 0;
+}
+#feature-five img{
+	margin-top: 2rem;
+}
+#main-footer {
+    background: #262F36;
+    color: white;
+    padding: 6rem 0;
+    font-size: 0.8rem;
+}
+
+#main-footer h6 {
+    color: #718FA9;
+}
+
+#main-footer a {
+    color: #6C6F73;
+}
+@media screen and ( min-width: 991px ){
+	.feature-content .row{
+		display: flex ;
+		align-items: center;
+	}
+}
